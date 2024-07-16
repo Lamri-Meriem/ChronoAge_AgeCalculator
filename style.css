@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    color: #FF7E21;
+    text-align: center;
+
+}
+
+.heading2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    color: #FBFBFB;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Style for the input field */
+#date {
+    width: 652px;
+    height: 55px;
+    background-color: white;
+    color: gray;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+
+/* Style for the submit button */
+#Submit {
+    margin-top: 40px;
+    font-family: "Poppins", sans-serif;
+    width: 246px;
+    height: 77px;
+    background-color: orange;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    display: block;
+    margin: 20 px auto;
+}
+
+/* Add a container to wrap all the content */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(41, 38, 38, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add the container to wrap all the content */
+body>* {
+    margin: 20px auto;
+}
+
+#result {
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    color: #FBFBFB;
+}
+
+#result span {
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    color: orange;
+}

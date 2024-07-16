@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./style.css"> <!-- link to the CSS file -->
+    <title>ChronoAge_Age Calculator</title>
+</head>
+
+<body>
+    <div class="image-container">
+        <img src="images/Logo.png" alt="Your Image">
+    </div>
+    <div class="container">
+        <div class="age-calculator">
+            <h1 class="heading1"> Welcome In ChronoAge!</h1>
+            <h2 class="heading2">Please enter your date of birth:</h2>
+            <div class="controls">
+                <input type="date" id="date">
+                <button onclick="calculateAge()" id="Submit">Submit</button>
+            </div>
+            <p id="result"></p> <!-- element to display the calculated age -->
+        </div>
+    </div>
+    <script src="./script.js"></script> <!-- link to the JavaScript file -->
+</body>
+
+</html>
